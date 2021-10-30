@@ -1,11 +1,16 @@
+<?php
 
+include "db.php";
+
+?>
 <link rel='stylesheet' href='style.css'>
-<form action="" method="post">
+<form action="post.php" method="post">
 
-    <p>Называние фильма : <input type="text" name="name" /></p>
-    <p>Дата выхода: <input type="text" name="ageyear" /></p>
-    <p>Бюджет: <input type="text" name="sel" /></p>
-    <p>Режисер: <input type="text" name="prod" /></p>
-    <p><input type="submit" /></p>
+    <p>Называние фильма : <input required type="text" name="name" /></p>
+    <p>Дата выхода: <input required type="text" name="ageyear" /></p>
+    <p>Бюджет: <input required type="text" name="sel" /></p>
+    <p>Режисер: <input required type="text" name="prod" /></p>
+    <p><input type="submit"/></p>
 
 </form>
+
