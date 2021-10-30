@@ -12,6 +12,5 @@ VALUES ('$name', '$ageyear','$sel','$prod')";
 
 $conn->query($sql);
 
+header("Location: /"); //Редирект
 
-?>
-<p><input type="submit" onClick='location.href="http://powerfilm/"'></p>

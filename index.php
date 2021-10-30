@@ -3,6 +3,7 @@
 include "db.php";
 
 ?>
+
 <link rel='stylesheet' href='style.css'>
 <form action="post.php" method="post">
 
