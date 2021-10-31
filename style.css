@@ -1,8 +1,11 @@
+
 form {
     font-family: 'Roboto', sans-serif;
-    background:;
+    background: greenyellow;
     position: relative;
-    font-weight:400px;
-
-
+    width: 260px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #eee;
 }
+
