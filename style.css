@@ -1,8 +1,27 @@
+
 form {
     font-family: 'Roboto', sans-serif;
-    background:;
-    position: relative;
-    font-weight:400px;
+    background: pink;
+    position: center;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 10px 10px 0;
 
+    text-align: center;
+}
+
+.films {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
 
 }
+
+.film {
+    padding: 0px 15px;
+    flex: 0 1 25%;
+    display: flex;
+}
+
+
+
